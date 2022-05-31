@@ -1,4 +1,4 @@
-package numberprinterexecutor;
+package numberprinter;
 
 public class HelloPrinter implements Runnable {
 
