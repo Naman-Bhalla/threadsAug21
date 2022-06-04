@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60e3f0b-fc95-4091-8dfd-9155b453bf8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/addersubtractoratomic/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addersubtractoratomic/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addersubtractoratomic/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addersubtractoratomic/Value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addersubtractorlock/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addersubtractorlock/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addersubtractorlock/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addersubtractorlock/Value.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addersubtractor/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addersubtractor/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addersubtractorlock/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addersubtractorlock/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/producerconsumer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/producerconsumer/Producer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +135,7 @@
       <updated>1654012506502</updated>
       <workItem from="1654012508950" duration="8198000" />
       <workItem from="1654185382080" duration="8421000" />
-      <workItem from="1654358835012" duration="3246000" />
+      <workItem from="1654358835012" duration="6619000" />
     </task>
     <servers />
   </component>
