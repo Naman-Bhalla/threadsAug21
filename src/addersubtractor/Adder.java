@@ -18,7 +18,7 @@ public class Adder implements Runnable {
                 }
 
 //            value.add(i);
-                synchronized (value) {
+                synchronized (value) { // I will explain with semaphores
                     int current = value.get();
                     int next = current + 1;
                     value.set(next);

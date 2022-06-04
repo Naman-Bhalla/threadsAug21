@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60e3f0b-fc95-4091-8dfd-9155b453bf8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/addersubtractor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addersubtractoratomic/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addersubtractoratomic/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addersubtractoratomic/Subtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addersubtractoratomic/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addersubtractorlock/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addersubtractorlock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addersubtractorlock/Subtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addersubtractorlock/Value.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addersubtractor/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addersubtractor/Adder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,24 +37,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/namanbhalla/IdeaProjects/ScalerLLD/threadsAug21/src/numberprinterexecutor&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;profiler.jvm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/namanbhalla/IdeaProjects/ScalerLLD/threadsAug21/src/addersubtractoratomic",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "profiler.jvm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/addersubtractoratomic" />
+      <recent name="$PROJECT_DIR$/src/addersubtractorlock" />
       <recent name="$PROJECT_DIR$/src/numberprinterexecutor" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.addersubtractor.Main">
+  <component name="RunManager" selected="Application.addersubtractoratomic.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreadedmergesort.Main" />
       <module name="threadsAug21" />
@@ -86,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="numberprinter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="numberprinter.Main" />
+    <configuration name="addersubtractoratomic.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="addersubtractoratomic.Main" />
       <module name="threadsAug21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="numberprinterexecutor.*" />
+          <option name="PATTERN" value="addersubtractoratomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="numberprinterexecutor.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="numberprinterexecutor.Main" />
+    <configuration name="addersubtractorlock.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="addersubtractorlock.Main" />
       <module name="threadsAug21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="numberprinterexecutor.*" />
+          <option name="PATTERN" value="addersubtractorlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.addersubtractoratomic.Main" />
+        <item itemvalue="Application.addersubtractorlock.Main" />
         <item itemvalue="Application.addersubtractor.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.OddEvenPrinter" />
-        <item itemvalue="Application.numberprinterexecutor.Main" />
-        <item itemvalue="Application.numberprinter.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +141,8 @@
       <option name="presentableId" value="Default" />
       <updated>1654012506502</updated>
       <workItem from="1654012508950" duration="8198000" />
-      <workItem from="1654185382080" duration="7316000" />
+      <workItem from="1654185382080" duration="8421000" />
+      <workItem from="1654358835012" duration="3246000" />
     </task>
     <servers />
   </component>
@@ -171,6 +182,11 @@
           <url>file://$PROJECT_DIR$/src/addersubtractor/Main.java</url>
           <line>19</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/addersubtractorlock/Subtractor.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
